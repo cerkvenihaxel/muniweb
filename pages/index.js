@@ -15,6 +15,8 @@ export default function Home() {
     <div className='content-center'>
       <Head>
         <title>Municipalidad de La Rioja</title>
+        <meta name="description" content="Municipalidad de La Rioja, Argentina." />
+        <link rel="icon" href="https://municipiolarioja.gob.ar/images/Sistema/Logo/logomuni1.png" />
       </Head>
       <div className='bg-secondary content-center'>
       <Carrusel />
