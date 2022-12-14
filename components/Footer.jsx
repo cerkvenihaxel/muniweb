@@ -40,7 +40,7 @@ const navigation = [
   
   export default function Footer() {
     return (
-      <footer className="bg-white border-y border-primary">
+      <footer className="bg-primary border-y border-primary">
         <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
           <div className="flex justify-center space-x-6 md:order-2">
             {navigation.map((item) => (
@@ -51,7 +51,7 @@ const navigation = [
             ))}
           </div>
           <div className="mt-8 md:order-1 md:mt-0">
-            <p className="text-center text-base text-primary">Municipalidad de La Rioja, Argentina 2023.</p>
+            <p className="text-center text-base text-white">Municipalidad de La Rioja, Argentina 2023.</p>
           </div>
         </div>
       </footer>
