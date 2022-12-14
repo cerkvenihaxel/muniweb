@@ -21,6 +21,7 @@ export default function Home() {
       </Head>
       <div className='bg-secondary content-center'>
       <Carrusel />
+      
       <Buttons /> 
        <News />
        <Buttons />

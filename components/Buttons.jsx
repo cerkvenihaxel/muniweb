@@ -1,13 +1,15 @@
 export default function Buttons() {
     return (
-      <div className="flex flex-wrap w-full mb-20 pt-12 flex-col items-center text-center">
+      <div className="w-full mb-20 pt-12 items-center text-center">
       <div className="bg-white container px-5 py-24 sm:max-w-none  ">
         <div className="text-5xl text-bold text-center font-bold text-primary"> Servicios </div>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:py-16 lg:px-8">
          
-        <div class="flex flex-wrap -m-4">
+        <div class=" md:flex  flex-wrap m-4">
 
           <div class="xl:w-1/4 md:w-1/3 p-4 hover:-translate-y-2 ease-in duration-100">
+            
+
         <div class="border border-gray-200 p-6 rounded-lg drop-shadow">
 
         <a href="https://www.google.com.ar">
