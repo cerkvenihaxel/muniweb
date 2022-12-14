@@ -69,13 +69,13 @@ export default function Navbar() {
             <span className="sr-only">Municipalidad de La Rioja</span>
             <img
               className="h-8 w-auto sm:h-10"
-              src="https://municipiolarioja.gob.ar/images/Sistema/Logo/logomuni1.png"
+              src="/munilogo.png"
               alt="Logo Municipalidad de La Rioja"
             />
           </a>
         </div>
         <div className="-my-2 -mr-2 md:hidden">
-          <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+          <Popover.Button className="inline-flex items-center justify-center rounded-md bg-transparent p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
             <span className="sr-only">Abrir menú</span>
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </Popover.Button>
@@ -116,13 +116,13 @@ export default function Navbar() {
                           <a
                             key={solution.name}
                             href={solution.href}
-                            className="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50"
+                            className="-m-3 flex items-start rounded-lg p-3 hover:bg-primary"
                           >
                             <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-indigo-500 text-primary sm:h-12 sm:w-12">
                               <solution.icon className="h-6 w-6" aria-hidden="true" />
                             </div>
                             <div className="ml-4">
-                              <p className="text-base font-medium text-gray-900">{solution.name}</p>
+                              <p className="text-base font-medium text-black">{solution.name}</p>
                               <p className="mt-1 text-sm text-gray-500">{solution.description}</p>
                             </div>
                           </a>
@@ -131,13 +131,13 @@ export default function Navbar() {
                       <div className="bg-gray-50 p-5 sm:p-8">
                         <a href="#" className="-m-3 flow-root rounded-md p-3 hover:bg-gray-100">
                           <div className="flex items-center">
-                            <div className="text-base font-medium text-black">Enterprise</div>
+                            <div className="text-base font-medium text-black">Recibo digital</div>
                             <span className="ml-3 inline-flex items-center rounded-full bg-indigo-100 px-3 py-0.5 text-xs font-medium leading-5 text-orange">
-                              New
+                              Nuevo
                             </span>
                           </div>
                           <p className="mt-1 text-sm text-black">
-                            Empower your entire team with even more advanced tools.
+                            Escribir acá el texto
                           </p>
                         </a>
                       </div>
@@ -226,20 +226,20 @@ export default function Navbar() {
         leaveFrom="opacity-100 scale-100"
         leaveTo="opacity-0 scale-95"
       >
-        <Popover.Panel focus className="absolute inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden">
-          <div className="divide-y-2 divide-gray-50 rounded-lg bg-transparent shadow-lg ring-1 ring-black ring-opacity-5">
+        <Popover.Panel focus className="relative inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden">
+          <div className="divide-y-2 divide-gray-50 rounded-lg bg-secondary shadow-lg ring-1 ring-black ring-opacity-5">
             <div className="px-5 pt-5 pb-6">
               <div className="flex items-center justify-between">
                 <div>
                   <img
                     className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                    src="/munilogo.png"
                     alt="Municipalidad de La Rioja"
                   />
                 </div>
                 <div className="-mr-2">
-                  <Popover.Button className="inline-flex items-center justify-center rounded-md bg-transparent p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
-                    <span className="sr-only">Close menu</span>
+                  <Popover.Button className="inline-flex items-center justify-center rounded-md bg-primary p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                    <span className="sr-only">Cerrar menú</span>
                     <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
                 </div>
@@ -252,10 +252,10 @@ export default function Navbar() {
                       href={solution.href}
                       className="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50"
                     >
-                      <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-indigo-500 text-white">
+                      <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-md bg-primary text-white">
                         <solution.icon className="h-6 w-6" aria-hidden="true" />
                       </div>
-                      <div className="ml-4 text-base font-medium text-gray-900">{solution.name}</div>
+                      <div className="ml-4 text-base  font-medium text-black">{solution.name}</div>
                     </a>
                   ))}
                 </nav>
@@ -278,26 +278,13 @@ export default function Navbar() {
                   <a
                     key={resource.name}
                     href={resource.href}
-                    className="text-base font-medium text-gray-900 hover:text-gray-700"
+                    className="text-base font-medium text-black hover:text-gray-700"
                   >
                     {resource.name}
                   </a>
                 ))}
               </div>
-              <div className="mt-6">
-                <a
-                  href="#"
-                  className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
-                >
-                  Sign up
-                </a>
-                <p className="mt-6 text-center text-base font-medium text-gray-500">
-                  Existing customer?{' '}
-                  <a href="#" className="text-indigo-600 hover:text-indigo-500">
-                    Sign in
-                  </a>
-                </p>
-              </div>
+            
             </div>
           </div>
         </Popover.Panel>
