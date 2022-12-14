@@ -1,78 +1,132 @@
 export default function Buttons() {
     return (
-      <div className="bg-white">
-        <div className="text-7xl text-bold text-center pt-24 font-bold text-primary"> Servicios </div>
-        <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-          <p className="text-center text-lg font-semibold text-black">
-            Nuestros servicios.
-          </p>
-          <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8 ">
+      <div className="flex flex-wrap w-full mb-20 pt-12 flex-col items-center text-center">
+      <div className="bg-white container px-5 py-24 sm:max-w-none  ">
+        <div className="text-5xl text-bold text-center font-bold text-primary"> Servicios </div>
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:py-16 lg:px-8">
+         
+        <div class="flex flex-wrap -m-4">
 
+          <div class="xl:w-1/4 md:w-1/3 p-4 hover:-translate-y-2 ease-in duration-100">
+        <div class="border border-gray-200 p-6 rounded-lg drop-shadow">
 
-            <a href="https://www.google.com">
-            <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8 hover:-translate-y-2 ease-in duration-100">
+        <a href="https://www.google.com.ar">
 
-              <img
-                className="max-h-12"
-                src="https://cdn-icons-png.flaticon.com/512/4801/4801092.png"
+        <img
+                className="max-h-12 items-center mx-auto mb-4"
+                src="/btn/pagoelectro.png"
                 alt="Workcation"
-              />
-             
-             <div className="text-xl text-black mt-4 ml-5"> Llamada SOS</div>
-            </div>
-            </a>
-
-            <a href="https://www.google.com">
-
-            <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8 hover:-translate-y-2 ease-in duration-100">
-              <img className="max-h-12" src="https://cdn-icons-png.flaticon.com/512/3596/3596146.png" alt="Mirage" />
-              <div className="text-xl text-black mt-4 ml-5">Licencia Nacional de conducir</div>
-
-            </div>
-            </a>
-
-            <a href="https://www.google.com">
-            <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8 hover:-translate-y-2 ease-in duration-100">
-              <img className="max-h-12" src="https://cdn-icons-png.flaticon.com/512/925/925127.png" alt="Tuple" />
-              <div className="text-xl text-black mt-4 ml-5">Asistencia al vecino</div>
-
-            </div>
-            </a>
-
-            <a href="https://www.google.com">
-            <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8 hover:-translate-y-2 ease-in duration-100">
-              <img className="max-h-12" src="https://cdn-icons-png.flaticon.com/512/2334/2334248.png" alt="Laravel" />
-              <div className="text-xl text-black mt-4 ml-5">Recolección de residuos</div>
-            </div>
-            </a>
-
-            <a href="https://www.google.com">
-            <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8 hover:-translate-y-2 ease-in duration-100">
-              <img
-                className="max-h-12"
-                src="https://cdn-icons-png.flaticon.com/512/1786/1786971.png"
-                alt="StaticKit"
-              />
-                           
-             <div className="text-xl text-black mt-4 ml-5">Emprendedores</div>
-
-            </div>
-            </a>
-
-            <a href="https://www.google.com">
-            <div className="col-span-1 flex justify-center bg-gray-50 py-8 px-8 hover:-translate-y-2 ease-in duration-100">
-              <img
-                className="max-h-12"
-                src="https://cdn-icons-png.flaticon.com/512/3561/3561764.png"
-                alt="Statamic"
-              />
-             <div className="text-xl text-black mt-4 ml-5">Carnet Sanitario</div>
-
-            </div>
-            </a>
-
-          </div>
+              /> </a>
+          <h2 class="text-lg text-primary font-medium title-font mb-2 text-center">Pago Electrónico</h2>
         </div>
+      </div>
+
+      <div class="xl:w-1/4 md:w-1/3 p-4 hover:-translate-y-2 ease-in duration-100">
+        <div class="border border-gray-200 p-6 rounded-lg drop-shadow">
+
+          <a href="https://www.google.com.ar">
+        <img
+                className="max-h-12 items-center mx-auto mb-4"
+                src="/btn/atencion.svg"
+                alt="Workcation"
+              />              </a>
+
+          <h2 class="text-lg text-primary font-medium title-font mb-2 text-center">Atención al vecino</h2>
+        </div>
+
+      </div>
+
+
+      <div class="xl:w-1/4 md:w-1/3 p-4 hover:-translate-y-2 ease-in duration-100">
+        <div class="border border-gray-200 p-6 rounded-lg drop-shadow">
+
+        <a href="https://www.google.com.ar">
+
+        <img
+                className="max-h-24 items-center mx-auto mb-4"
+                src="/btn/licencia.svg"
+                alt="Workcation"
+              /></a>
+          <h2 class="text-lg text-primary font-medium title-font mb-2 text-center">Licencia de Conducir</h2>
+        </div>
+      </div>
+
+      <div class="xl:w-1/4 md:w-1/3 p-4 hover:-translate-y-2 ease-in duration-100">
+        <div class="border border-gray-200 p-6 rounded-lg drop-shadow">
+
+        <a href="https://www.google.com.ar">
+
+        <img
+                className="max-h-12 items-center mx-auto mb-4"
+                src="/btn/emprendedores.svg"
+                alt="Workcation"
+              /></a>
+          <h2 class="text-lg text-primary font-medium title-font mb-2 text-center">Emprendedores</h2>
+        </div>
+      </div>
+
+
+      <div class="xl:w-1/4 md:w-1/3 p-4 hover:-translate-y-2 ease-in duration-100">
+        <div class="border border-gray-200 p-6 rounded-lg drop-shadow">
+        <a href="https://www.google.com.ar">
+
+        <img
+                className="max-h-12 items-center mx-auto mb-4"
+                src="/btn/recoleccion.svg"
+                alt="Workcation"
+              /></a>
+          <h2 class="text-lg text-primary font-medium title-font mb-2 text-center">Recolección de residuos</h2>
+        </div>
+      </div>
+
+
+      <div class="xl:w-1/4 md:w-1/3 p-4 hover:-translate-y-2 ease-in duration-100">
+        <div class="border border-gray-200 p-6 rounded-lg drop-shadow">
+        <a href="https://www.google.com.ar">
+
+        <img
+                className="max-h-12 items-center mx-auto mb-4"
+                src="/btn/defensa.svg"
+                alt="Workcation"
+              /> </a>
+          <h2 class="text-lg text-primary font-medium title-font mb-2 text-center">Defensa al consumidor</h2>
+        </div>
+      </div>
+
+      <div class="xl:w-1/4 md:w-1/3 p-4 hover:-translate-y-2 ease-in duration-100">
+        <div class="border border-gray-200 p-6 rounded-lg drop-shadow">
+
+        <a href="https://www.google.com.ar">
+
+        <img
+                className="max-h-12 items-center mx-auto mb-4"
+                src="/btn/carnet.svg"
+                alt="Workcation"
+              /> </a>
+          <h2 class="text-lg text-primary font-medium title-font mb-2 text-center">Carnet Sanitario</h2>
+        </div>
+      </div>
+
+      <div class="xl:w-1/4 md:w-1/3 p-4 hover:-translate-y-2 ease-in duration-100">
+        <div class="border border-gray-200 p-6 rounded-lg drop-shadow">
+
+        <a href="https://www.google.com.ar">
+
+        <img
+                className="max-h-12 items-center mx-auto mb-4"
+                src="/btn/mujer.svg"
+                alt="Workcation"
+              /> </a>
+          <h2 class="text-lg text-primary font-medium title-font mb-2 text-center">S.O.S. Mujer</h2>
+        </div>
+      </div>
+
+      </div>
+
+      
+
+        </div>
+      </div>
       </div>
     )
   }

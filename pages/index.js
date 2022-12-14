@@ -7,6 +7,7 @@ import Buttons from '../components/Buttons'
 import { Container } from 'postcss'
 import News from '../components/News'
 import Banner from '../components/Banner'
+import Footer from '../components/Footer'
 
 
 
@@ -22,8 +23,8 @@ export default function Home() {
       <Carrusel />
       <Buttons /> 
        <News />
-       <Banner />
        <Buttons />
+<Footer />
               </div>
 
     </div>
