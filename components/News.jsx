@@ -57,9 +57,9 @@ const posts = [
   
   export default function News() {
     return (
-      <div className="relative bg-gray-50 mt-12 px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28">
+      <div className="relative bg-white mt-12 px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28">
         <div className="absolute inset-0">
-          <div className="h-1/3 bg-white sm:h-2/3" />
+          <div className="h-1/3  bg-white sm:h-2/3" />
         </div>
         <div className="relative mx-auto max-w-7xl">
           <div className="text-center">
@@ -68,7 +68,8 @@ const posts = [
           </div>
           <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
             {posts.map((post) => (
-              <div key={post.title} className="flex flex-col overflow-hidden rounded-lg shadow-lg">
+              <div key={post.title} className="flex flex-col hover:scale-110  easy-in hover:duration-200 overflow-hidden rounded-lg shadow-lg">
+                
                 <div className="flex-shrink-0">
                   <img className="h-48 w-full object-cover" src={post.imageUrl} alt="" />
                 </div>
@@ -79,13 +80,20 @@ const posts = [
                         {post.category.name}
                       </a>
                     </p>
+                    
                     <a href={post.href} className="mt-2 block">
                       <p className="text-xl font-semibold text-black">{post.title}</p>
                       <p className="mt-3 text-base text-black">{post.description}</p>
                     </a>
+                    
                   </div>
                   <div className="mt-6 flex items-center">
-               
+                  <button
+        type="button"
+        className="inline-flex items-center rounded border border-transparent bg-primary px-2.5 py-1.5 text-xs font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+      >
+        Leer más
+      </button>
                 
                   </div>
                 </div>
