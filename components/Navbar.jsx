@@ -299,15 +299,15 @@ export default function Navbar() {
             </div>
             <div className="py-6 px-5">
               <div className="grid grid-cols-2 gap-4">
-                <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                <a href="#" className="text-base font-medium text-black hover:text-gray-700">
                   La Ciudad
                 </a>
 
-                <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                <a href="#" className="text-base font-medium text-black hover:text-gray-700">
                   Servicios
                 </a>
 
-                <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                <a href="#" className="text-base font-medium text-black hover:text-gray-700">
                   Enterprise
                 </a>
                 {resources.map((resource) => (
