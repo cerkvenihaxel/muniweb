@@ -65,7 +65,7 @@ export default function Navbar() {
     <Popover className=" bg-primary relative">
       <div className="flex items-center justify-between px-4 py-2 sm:px-6 md:justify-start md:space-x-10">
         <div className="flex justify-start lg:w-0 lg:flex-1">
-          <a href="#">
+          <a href="/">
             <span className="sr-only">Municipalidad de La Rioja</span>
             <img
               className="h-8 w-auto sm:h-10"
@@ -308,7 +308,7 @@ export default function Navbar() {
                 </a>
 
                 <a href="#" className="text-base font-medium text-black hover:text-gray-700">
-                  Enterprise
+                  Servicios 2
                 </a>
                 {resources.map((resource) => (
                   <a

@@ -2,12 +2,12 @@
   
   export default function Footer() {
     return (
-      <footer class="text-white bg-primary body-font">
+      <footer class="text-secondary bg-primary body-font">
       <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
         <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
        <img src="/munilogo.png" alt="Logo" border="0" width="100" height="100" />    
         </a>
-        <p class="text-sm text-gray-500 sm:ml-12 sm:pl-4 sm:border-l-2 sm:border-secondary sm:py-2 sm:mt-0 mt-4">© Sitio Oficial — Municipalidad de La Rioja.
+        <p class="text-sm text-secondary sm:ml-12 sm:pl-4 sm:border-l-2 sm:border-secondary sm:py-2 sm:mt-0 mt-4">© Sitio Oficial — Municipalidad de La Rioja.
 
         </p>
         <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
