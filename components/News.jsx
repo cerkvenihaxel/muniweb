@@ -68,12 +68,12 @@ const posts = [
           </div>
           <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
             {posts.map((post) => (
-              <div key={post.title} className="flex flex-col hover:scale-110  easy-in hover:duration-200 overflow-hidden rounded-lg shadow-lg">
+              <div key={post.title} className="flex flex-col hover:scale-110 easy-in hover:duration-200 overflow-hidden rounded-lg shadow-lg">
                 
                 <div className="flex-shrink-0">
                   <img className="h-48 w-full object-cover" src={post.imageUrl} alt="" />
                 </div>
-                <div className="flex flex-1 flex-col justify-between bg-white p-6">
+                <div className="flex flex-1 flex-col justify-between bg-secondary p-6">
                   <div className="flex-1">
                     <p className="text-sm font-medium text-black">
                       <a href={post.category.href} className="hover:underline">

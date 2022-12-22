@@ -1,8 +1,8 @@
-export default function Buttons() {
+export default function ButtonsTwo() {
     return (
       <div className="w-full mb-20 pt-12 items-center text-center">
       <div className="bg-white container px-5 py-24 sm:max-w-none  ">
-        <div className="text-5xl text-bold text-center font-bold text-primary"> Servicios </div>
+        <div className="text-5xl text-bold text-center font-bold text-primary"> Direcciones </div>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:py-16 lg:px-8">
          
         <div class=" md:flex  flex-wrap m-4">
@@ -12,7 +12,7 @@ export default function Buttons() {
 
         <div class="border border-gray-200 p-6 bg-secondary rounded-lg drop-shadow">
 
-        <a href="/servicio">
+        <a href="https://www.google.com.ar">
 
         <img
                 className="max-h-12 items-center mx-auto mb-4"
@@ -26,7 +26,7 @@ export default function Buttons() {
       <div class="xl:w-1/4 md:w-1/3 p-4 hover:-translate-y-2 ease-in duration-100">
         <div class="border border-gray-200 p-6 bg-secondary rounded-lg drop-shadow">
 
-          <a href="/servicio">
+          <a href="https://www.google.com.ar">
         <img
                 className="max-h-12 items-center mx-auto mb-4"
                 src="/btn/atencion.svg"
@@ -42,7 +42,7 @@ export default function Buttons() {
       <div class="xl:w-1/4 md:w-1/3 p-4 hover:-translate-y-2 ease-in duration-100">
         <div class="border border-gray-200 p-6 bg-secondary  rounded-lg drop-shadow">
 
-        <a href="/servicio">
+        <a href="https://www.google.com.ar">
 
         <img
                 className="max-h-24 items-center mx-auto mb-4"
@@ -56,7 +56,7 @@ export default function Buttons() {
       <div class="xl:w-1/4 md:w-1/3 p-4 hover:-translate-y-2 ease-in duration-100">
         <div class="border border-gray-200 p-6 bg-secondary  rounded-lg drop-shadow">
 
-        <a href="/servicio">
+        <a href="https://www.google.com.ar">
 
         <img
                 className="max-h-12 items-center mx-auto mb-4"
@@ -70,7 +70,7 @@ export default function Buttons() {
 
       <div class="xl:w-1/4 md:w-1/3 p-4 hover:-translate-y-2 ease-in duration-100">
         <div class="border border-gray-200 p-6 bg-secondary  rounded-lg drop-shadow">
-        <a href="/servicio">
+        <a href="https://www.google.com.ar">
 
         <img
                 className="max-h-12 items-center mx-auto mb-4"
@@ -84,7 +84,7 @@ export default function Buttons() {
 
       <div class="xl:w-1/4 md:w-1/3 p-4 hover:-translate-y-2 ease-in duration-100">
         <div class="border border-gray-200 p-6 bg-secondary  rounded-lg drop-shadow">
-        <a href="/servicio">
+        <a href="https://www.google.com.ar">
 
         <img
                 className="max-h-12 items-center mx-auto mb-4"
@@ -98,7 +98,7 @@ export default function Buttons() {
       <div class="xl:w-1/4 md:w-1/3 p-4 hover:-translate-y-2 ease-in duration-100">
         <div class="border border-gray-200 p-6 bg-secondary  rounded-lg drop-shadow">
 
-        <a href="/servicio">
+        <a href="https://www.google.com.ar">
 
         <img
                 className="max-h-12 items-center mx-auto mb-4"
@@ -112,7 +112,7 @@ export default function Buttons() {
       <div class="xl:w-1/4 md:w-1/3 p-4 hover:-translate-y-2 ease-in duration-100">
         <div class="border border-gray-200 p-6 bg-secondary  rounded-lg drop-shadow">
 
-        <a href="/servicio">
+        <a href="https://www.google.com.ar">
 
         <img
                 className="max-h-12 items-center mx-auto mb-4"

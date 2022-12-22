@@ -4,6 +4,8 @@ import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
 import { Carrusel } from '../components/Carousel'
 import Buttons from '../components/Buttons'
+import ButtonsTwo from '../components/ButtonsTwo'
+
 import { Container } from 'postcss'
 import News from '../components/News'
 import Banner from '../components/Banner'
@@ -24,7 +26,7 @@ export default function Home() {
       
       <Buttons /> 
        <News />
-       <Buttons />
+       <ButtonsTwo />
 <Footer />
               </div>
 
