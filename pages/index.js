@@ -10,6 +10,7 @@ import { Container } from 'postcss'
 import News from '../components/News'
 import Banner from '../components/Banner'
 import Footer from '../components/Footer'
+import Prensa from '../components/Slider'
 
 
 
@@ -23,9 +24,12 @@ export default function Home() {
       </Head>
       <div className='bg-secondary content-center'>
       <Carrusel />
-      
       <Buttons /> 
-       <News />
+
+        <News />
+        <Prensa/>
+
+       
        <ButtonsTwo />
 <Footer />
               </div>
