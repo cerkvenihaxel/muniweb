@@ -2,6 +2,8 @@ import React from 'react'
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import dynamic from "next/dynamic";
+import Prensa from '../components/Slider'
+
 
 const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
     ssr: false,
@@ -82,45 +84,12 @@ const posts = [
 
           <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
 
-            {posts.map((post) => (
-
-              <div key={post.title} className="flex flex-col hover:scale-110 easy-in hover:duration-200 overflow-hidden rounded-lg shadow-lg">
-
-                <div className="flex-shrink-0">
-                  <img className="h-48 w-full object-cover" src={post.imageUrl} alt="" />
-                </div>
-                <div className="flex flex-1 flex-col justify-between bg-secondary p-6">
-                  <div className="flex-1">
-                    <p className="text-sm font-medium text-black">
-                      <a href={post.category.href} className="hover:underline">
-                        {post.category.name}
-                      </a>
-                    </p>
-                    
-                    <a href={post.href} className="mt-2 block">
-                      <p className="text-xl font-semibold text-black">{post.title}</p>
-                      <p className="mt-3 text-base text-black">{post.description}</p>
-                    </a>
-                    
-                  </div>
-                  <div className="mt-6 flex items-center">
-                  <button
-        type="button"
-        className="inline-flex items-center rounded border border-transparent bg-primary px-2.5 py-1.5 text-xs font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
-      >
-        Leer más
-      </button>
-                
-                  </div>
-                </div>
-
-              </div>
-
-            ))}
 
           </div>
 
         </div>
+        <Prensa />
+
       </div>
 
       
