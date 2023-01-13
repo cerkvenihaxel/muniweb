@@ -10,7 +10,6 @@ import { Container } from 'postcss'
 import News from '../components/News'
 import Banner from '../components/Banner'
 import Footer from '../components/Footer'
-import Prensa from '../components/Slider'
 
 
 
